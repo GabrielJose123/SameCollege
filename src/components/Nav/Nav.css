@@ -1,0 +1,23 @@
+nav {
+    height: 100%;
+    width: 100%;
+    margin-left: 8vh;
+    display: flex;
+    padding-left: 30vh;
+}
+
+nav ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    gap: 7vh;
+    font-weight: 600;
+}
+
+nav ul li {
+    font-size: 3.5vh;
+    cursor: pointer;
+    color:white;
+}
