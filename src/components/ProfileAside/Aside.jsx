@@ -1,3 +1,5 @@
+import { Photo } from "./Photo/Photo";
+
 export function Aside() {
   return (
     <aside
@@ -7,15 +9,7 @@ export function Aside() {
         backgroundColor: 'blue'
       }}
     >
-      <div
-        style={{
-          width: '100%',
-          height: '40%',
-          backgroundColor: 'green'
-        }}
-      >
-        {/* Conteúdo do box */}
-      </div>
+      <Photo></Photo>
     </aside>
   );
 }

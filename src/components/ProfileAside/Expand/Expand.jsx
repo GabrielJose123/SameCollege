@@ -1,14 +1,9 @@
 import React, { useState, useEffect, useRef } from "react"
 
-export function Expand() {
+export const Expand = () => (
+    <button></button>
+)
+
+const ExpandAction = (div,size) => {
     
-    const [size, setSize] = useState(defaultSize)
-    return (
-        <button></button>
-    )
-
-    function ExpandAction({ divRef, FinalSize }) {
-        setSize(divRef - FinalSize)
-    }
 }
-
